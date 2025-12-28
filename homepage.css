@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins' sans-serif;
+    
+    
+    }
+    body {
+    
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background:#000;
+    
+    
+    }
+    nav{
+        position:relative;
+        width: 524px;
+        height:50px;
+        background:transparent;
+        border-radius: 8px;
+        display:flex;
+        justify-content:center;
+        align-items:top;
+    
+    
+    }
+    nav a{
+        position:relative;
+        display:inline-block;
+        font-size: 1em;
+        font-weight:250;
+        color:#fff;
+        justify-content: top;
+        text-decoration: none;
+        padding: 0 23px;
+        z-index: 2;
+    
+    
+    }
+    nav span{
+        position:absolute;
+        top:0;
+        left:0;
+        width:95px;
+        font-size:1em;
+        height:100%;
+        background:linear-gradient(45deg,#4f1919 , #a17979);
+        border-radius: 8px;
+    
+    
+    }
+    nav a:nth-child(1):hover ~ span
+    {
+        left:0px;
+    }
+    nav a:nth-child(2):hover ~ span
+    {
+        left: 95px;
+    
+
+    }
+    
+    nav a:nth-child(3):hover ~ span
+    {
+        left:120px;
+        width:95px;
+    }
+    nav a:nth-child(4):hover ~ span
+    {
+        left:210px;
+        width:110px;
+    }
+    nav a:nth-child(5):hover ~ span
+    {
+        left:310px;
+        width:110px;
+    }
+    nav a:nth-child(6):hover ~ span
+    {
+        left:410px;
+        width:110px;
+    }
